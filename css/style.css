@@ -156,3 +156,27 @@ aside .signature {
 aside .opinion {
     text-align:center;
 }}
+/*step-8*/
+@media screen and (min-width:1024px){
+    body{
+        display:grid;
+        grid-template-columns: auto 20rem;
+        grid-template-areas: 
+            "header header"
+            "nav nav"
+            "main aside"
+            "footer footer";
+        max-width:1200px;    
+        margin-right:auto;
+    }
+    header { grid-area: header; }
+    nav { grid-area: nav; }
+    footer { grid-area: footer; }
+    aside {
+        display: block;
+    }
+
+
+
+
+}
