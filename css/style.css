@@ -1,0 +1,142 @@
+/* Journey to the Center of the Earth Practicum */
+
+
+/*Yixuan sun*/ 
+/*step-5*/
+body{background-image: linear-gradient(#765729, #000000);
+    box-shadow: #888888;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+/*header*/
+header{ 
+    color:white; 
+    font-family: Georgia;
+    text-align: center;
+    background-image:url(/img/cave.jpg)  ;
+    background-size: initial;
+    height: 100px;
+    border: 3px solid #886644;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 0.75;
+    background-position: center;
+    padding:10px;
+    
+}/*I've been working on this step since Step -5.*/
+/*I thought it was necessary to directly establish a foundation similar to the example 
+when I was working on Step-5, so I tried to make some modifications by comparing the pictures of the examples. 
+As a result, I found that I had made some adjustments before when I was working on Step-6.8?
+/*nav*/
+nav ul {
+    /*in step-6 find i did wrong,so rewrite*/
+    list-style: none;
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border: 3px solid #886644;
+    background-color: white;
+    opacity: 0.75;}
+
+nav li{
+    display: inline;
+    border-left: 3px double black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+nav li:first-child{
+    margin-left:0;
+    border: none;  
+   
+
+
+}
+    
+/* main body*/
+main,aside {
+    padding: 5%;
+    border: 3px solid #886644;
+    box-shadow: 5px 10px 8px #888888;
+    opacity: 0.75;
+    background-color:white
+}
+
+
+
+/*The first line of the first paragraph should be distinctly larger as shown in the images.*/
+main p:first-of-type::first-line{
+    font-size: 30px;
+}
+
+#cover {
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 16px;
+    }
+/*cryptogram*//*change in step-6*/
+#cryptogram{
+    text-align: center; 
+}
+#cryptogram img{
+    widows: 80%;
+    max-width: 480px;
+}
+#cryptogram figcaption{
+    font-style: italic;
+}
+
+/* book reviews*/
+/*step-6 add*/
+.opinion {
+    text-align:center;
+}
+.signature{
+    text-align: right;
+    font-style:italic;
+}
+.submission {
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    
+}
+/*footer*/
+footer {
+    text-align: center;
+    border: 3px solid #886644;
+    box-shadow: 5px 10px 8px #888888;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    opacity: 0.75;
+    background-color: white;
+}
+  
+/*step-6*/
+span {
+    font-style: italic;
+}
+.character {
+    font-style: normal;
+    font-weight: bold;
+}
+h2 {
+    text-decoration: underline;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color:#A52A2A ;
+    text-decoration: underline
+}
+
+
+/**/
+
+
+
